@@ -12,3 +12,14 @@ Explore and extract data from phpMyAdmin SQL dumps using streaming parsing and i
 ### Export result
 ![Export](docs/screenshots/screenshot03.png)
 
+## Usage
+
+Load a SQL dump by passing the database file as a GET parameter:
+
+```text
+http://localhost/phpmydump-explorer/?db=backup.sql
+```
+
+The `db` parameter indicates the SQL dump file to parse.
+
+> Note: This is a temporary interface and may change in future versions.
