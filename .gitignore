@@ -1,0 +1,22 @@
+# Generated data
+data/
+indice/
+
+# SQL dumps
+*.sql
+
+# Logs
+*.log
+elog.txt
+errorlog.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
